@@ -1,0 +1,43 @@
+body {
+	background-color: #fffbe7;
+}
+
+h1, .subtitle {
+	font-family: 'Arial Black', impact, fantasy;
+}
+
+h1 {
+	margin-bottom: 0;
+	color: #d6292e;
+}
+
+.subtitle {
+	font-size: 24px;
+	margin-top: -10px;
+	color: #07b0da;
+}
+
+#container {
+	max-width: 600px;
+	margin: auto;
+}
+
+ul {
+	padding: 0;
+	li {
+		list-style: none;
+		margin-bottom: 10px;
+		a {
+			font-family: 'Roboto', arial, sans-serif;
+			color: #1636b9;
+			text-decoration: none;
+			transition: color .2s ease-in;
+			&:hover {
+				color: #07b0da;
+			}
+			&:visited {
+				color: #222;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+#spriteContainer {
+	width: 300px;
+	height: 300px;
+	background-image: url("../img/ch14/sprites_final.png");
+	animation: sprite .5s steps(24) infinite;
+	/* 24 stands for the number of frames in sprite sheet */
+}
+
+@keyframes sprite {
+	100% {
+		background-position: -7224px;
+	}
+}
